@@ -300,6 +300,21 @@ void CentroDeInvestigacion::MostrarInvestigadoresDelProyecto()
 	}
 }
 
+void CentroDeInvestigacion::MostrarProyectosPorCuantia()
+{
+	int menor = 0, media = 0, maxima = 0;
+	for (Proyecto p : this->Proyectos)
+	{
+		if (p.ObtenerComplejidadDelProyecto() == 1)
+			maxima += 1;
+		else if (p.ObtenerComplejidadDelProyecto() == 2)
+			media += 1;
+		else if (p.ObtenerComplejidadDelProyecto() == 3)
+			menor += 1;
+	}
+	std::cout << "Cantidad de projectos por categoria: " << "\n\t Alta: " << maxima << "\n\t Media: " << media << "\n\t Menor: " << menor << '\n';
+}
+
 void CentroDeInvestigacion::ProyectosRecursosMaximosMedia()
 {
 	std::cout << "Proyectos de cuantia media que explotan al maximo su capacidad: ";

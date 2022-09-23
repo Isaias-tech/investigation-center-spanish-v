@@ -112,6 +112,11 @@ public:
 	void MostrarInvestigadoresDelProyecto();
 
 	/// <summary>
+	/// Esta funcion se encarga de mostrar cuantos proyectos hay en cada categoria.
+	/// </summary>
+	void MostrarProyectosPorCuantia();
+
+	/// <summary>
 	/// Esta funcion se encarga de imprimir todos los proyectos cuya cuantia es media maxima.
 	/// </summary>
 	void ProyectosRecursosMaximosMedia();

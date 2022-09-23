@@ -129,6 +129,7 @@ int trabajador(int seleccion)
 		break;
 	case 15:
 		system("cls");
+		CDI->MostrarProyectosPorCuantia();
 		return validarOpcionSeleccionada("\nContinuar? \n[1] Si \n==> ", { 1 });
 		break;
 	case 16:
