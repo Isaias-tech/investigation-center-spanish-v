@@ -58,7 +58,19 @@
     </ClInclude>
   </ItemGroup>
   <ItemGroup>
-    <None Include="ClassDiagram.cd">
+    <None Include="CentroDeInvestigacion.cd">
+      <Filter>Source Files</Filter>
+    </None>
+    <None Include="Proyecto.cd">
+      <Filter>Source Files</Filter>
+    </None>
+    <None Include="Computadora.cd">
+      <Filter>Source Files</Filter>
+    </None>
+    <None Include="Cluster.cd">
+      <Filter>Source Files</Filter>
+    </None>
+    <None Include="Investigador.cd">
       <Filter>Source Files</Filter>
     </None>
   </ItemGroup>
